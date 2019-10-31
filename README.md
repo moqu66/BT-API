@@ -1,7 +1,7 @@
 # BT-API
 宝塔API接口
 
-我的博客: [LittleMO's blog](https://sm.link)
+我的博客: <a target="_blank" href="https://sm.link"> https://sm.link </a>
 
 * 抓取的时候BTpanl版本为: 7.0.2
 * 没有备注的选项不建议修改,除非你已经了解它的用途  
