@@ -390,6 +390,7 @@ URL地址: /config?action=setPassword
 password1: TijWytF7RbaG //密码,确认两次输入一致  
 password2: TijWytF7RbaG //密码,确认两次输入一致  
 ```
+----
 ### 添加数据库
 ```
 URL地址: /database?action=AddDatabase
