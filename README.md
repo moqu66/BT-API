@@ -390,3 +390,39 @@ URL地址: /config?action=setPassword
 password1: TijWytF7RbaG //密码,确认两次输入一致  
 password2: TijWytF7RbaG //密码,确认两次输入一致  
 ```
+### 添加数据库
+```
+URL地址: /database?action=AddDatabase
+参数:
+name: test02 //数据库名
+codeing: utf8 //数据库编码 可选:utf-8 utf8md4 gbk big5
+db_user: test02 //数据库用户名
+password: mt5G88PkafGLWHmw //数据库密码
+dtype: MySQL //数据库类型
+dataAccess: ip //访问权限,可选:(本地服务器:1270.0.1)(所有人:%)(指定IP:ip)
+address: 192.168.1.1 //按上方填写,本地服务器填( 127.0.0.1 ), 所有人填( % ),指定IP填( 192.168.1.1 )
+ps: test02 //备注信息
+```
+----
+### 修改数据库密码
+```
+URL地址: /database?action=ResDatabasePassword
+参数:
+id: 2 //数据库ID
+name: test01 //数据库名
+password: GAKbfSTXKhtWfGAd //新密码
+```
+----
+### 删除数据库
+```
+URL地址: /database?action=DeleteDatabase
+参数:
+id: 6 //数据库id
+name: test05 //数据库名
+```
+----
+### 修改数据库ROOT密码
+```
+URL地址: /database?action=SetupPassword
+参数:
+password: 2nhFah448P5CXDYh //新密码
